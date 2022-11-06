@@ -28,22 +28,25 @@
                 </div>
             </div>
         </div>
-        <!-- lg nav -->
-    <lg-nav/>
+        <mobile-nav/>
+
         <!--  -->
      
                <div class="container grid grid-cols-12 md:gap-10 justify-between lg:mt-[220px]">
                 <!-- sidebar -->
                 <side-bar/>
                 <!-- end of sidebar -->
-                   <!-- mobile nav -->
-        <!-- <mobile-nav/> -->
-        <!-- end of mobile nav -->
                   
             <div class="col-span-12 lg:col-span-8">
-              <div class="lg:rounded-2xl bg-white dark:bg-[#111111]">
+               <lg-nav/>
+         <div>
+                 <div class="lg:rounded-2xl bg-white dark:bg-[#111111]">
                     <slot/>
+
+                        <v-footer/>
+
                </div>
+         </div>
             </div>
         </div>
     </div>
@@ -51,20 +54,23 @@
 </template>
 
 <script type="text/javascript">
-
+import VFooter from "@/components/footer/footer.vue";
 import Header from "@/components/header/header.vue";
 import SideBar from "@/components/sidebar/sidebar.vue";
 import MobileNav from "@/components/navs/mobile-nav.vue";
 import LgNav from "@/components/navs/lg-nav.vue";
+import MobileSidebar from "@/components/sidebar/mobile-sidebar.vue";
 export default {
     name:"Layout",
     props:["title"],
   
     components:{
-        Header, MobileNav, SideBar,LgNav
+        Header, MobileNav, SideBar,LgNav, MobileSidebar, VFooter
     }
 }
 </script>
 <style lang="css">
+@import "@/css/vendor/slick.css";
+@import "@/css/custom.css";
 @import "@/css/tailwind.css";
 </style>

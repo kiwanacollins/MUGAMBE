@@ -5,8 +5,7 @@ import router from "./router";
 import store from "./store";
 // styles
 // import "./index.css";
-import "./css/vendor/slick.css";
-import "./css/custom.css";
+
 
 
 import "./js/vendor/jquary.min.js";
