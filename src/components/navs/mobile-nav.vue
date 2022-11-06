@@ -4,8 +4,8 @@
         <nav id="navbar" class="hidden lg:hidden">
             <ul
                 class="block rounded-b-[20px] shadow-md absolute left-0 top-20 z-[22222222222222] w-full bg-white dark:bg-[#1d1d1d]">
-                <li v-for="(url,index) in urls" :key="index" @click="menuActiveChange(index)">
-                                 <a :class="[index == menuActive?'mobile-menu-items-active':'','menu-items']" :href="[url.link]">
+                <li v-for="(url,index) in urls" :key="index" @click="menuActiveChange(index,url)">
+                                 <a :class="[index == menuActive?'mobile-menu-items-active':'','mobile-menu-items']">
                                     <span class="mr-2 text-xl">
                                         <i :class="url.icon"></i>
                                     </span> {{url.name}}</a></li>
@@ -37,9 +37,12 @@ export default {
 
     },
     methods: {
-        menuActiveChange(index) {
+        menuActiveChange(index,route) {
             localStorage.setItem("mobile-menu-active", index);
             this.menuActive = index;
+            console.lo(route.link);
+            this.$router.push(route.link);
+
         }
     }
 }

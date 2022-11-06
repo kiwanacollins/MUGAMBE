@@ -1,5 +1,5 @@
 <template lang="html">
-    <layout>
+    <layout title="Resume">
          <div class="container sm:px-5 md:px-10 lg:px-14">
                             <div class="py-12 px-4 md:px-0">
                                 <!-- resume page title -->

@@ -58,6 +58,8 @@ const $ = require('jquery');
   
             if (localStorage.getItem("color-theme")) {
               if (localStorage.getItem("color-theme") === "light") {
+              console.log("set via local storage");
+
                 document.documentElement.classList.add("dark");
                 localStorage.setItem("color-theme", "dark");
               } else {
@@ -67,6 +69,7 @@ const $ = require('jquery');
   
               // if NOT set via local storage previously
             } else {
+              console.log("not set via local storage");
               if (document.documentElement.classList.contains("dark")) {
                 document.documentElement.classList.remove("dark");
                 localStorage.setItem("color-theme", "light");

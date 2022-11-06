@@ -29,9 +29,7 @@
             </div>
         </div>
         <mobile-nav/>
-
         <!--  -->
-     
                <div class="container grid grid-cols-12 md:gap-10 justify-between lg:mt-[220px]">
                 <!-- sidebar -->
                 <side-bar/>
@@ -42,7 +40,6 @@
          <div>
                  <div class="lg:rounded-2xl bg-white dark:bg-[#111111]">
                     <slot/>
-
                         <v-footer/>
 
                </div>
@@ -66,6 +63,9 @@ export default {
   
     components:{
         Header, MobileNav, SideBar,LgNav, MobileSidebar, VFooter
+    },
+    mounted(){
+        document.querySelector("title").textContent = `${this.title} | Mugamba Bruno`
     }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <layout>
+  <layout title="Portifolio">
         <section id="portfolio" class="bg-white   lg:rounded-2xl dark:bg-[#111111]">
                     <div class="container  mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
                     <!-- responsive navigator -->
@@ -17,32 +17,31 @@
                             </ul>
                         </div>
                          <div id="" class="mymix portfolio_list-two  two-col ">
-                            <div class="grid-sizer"></div>
-                            <!-- item -->
+                            <!-- <div class="grid-sizer"></div> -->
+
+                        <div class="flex flex-row row-span-1 col-span-2">
+                              <!-- item -->
                             <div class="portfolio_list-two-items isotop-item plugin custom" v-for="(i,index) in items" :key="index">
                                 <div
                                     class="rounded-lg bg-[#fff0f0] p-6 dark:bg-transparent dark:border-[2px] border-[#212425]">
                                     <div class="overflow-hidden rounded-lg">
                                         <a href="#portfiloOne" rel="modal:open">
                                             <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto"
-                                                :src="[i.img]" alt="portfolio image" />
+                                                src="@/images/work_images/small/2.jpg" alt="portfolio image" />
                                         </a>
                                     </div>
                                     <span
                                         class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">{{i.type}}</span>
                                     <h2
                                         class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                        <a target="_blank" :href="[i.link]" rel="modal:open">{{i.name}}</a>
+                                        <a target="_blank" :href="[i.link]" >{{i.name}}</a>
                                     </h2>
                                 </div>
                             </div>
-                    <!-- end of item -->
+                               <!-- end of item -->
 
-                      <!-- modal start for item one  -->
-                      
-                            <!--  -->
                         </div>
-
+                     </div>
                     </div>
                     <!-- end of responsive navigator -->
         </section>
