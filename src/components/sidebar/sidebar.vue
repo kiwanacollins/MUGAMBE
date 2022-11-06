@@ -80,7 +80,9 @@
                         <!-- personal infomation end-->
                         <!-- dowanload button -->
                         <button class="dowanload-btn">
-                            <img class="mr-3" src="@/images/icons/dowanload.png" alt="icon" /> Download CV </button>
+                            <img class="mr-3" src="@/images/icons/dowanload.png" alt="icon" />
+                                <a href="@/CV/Bruno's CV.pdf" download="Mugamba Bruno M.H">Download CV</a>
+                             </button>
                     </div>
                 </div>
             </div>

@@ -22,10 +22,10 @@ export default {
         return {
             menuActive: parseInt(localStorage.getItem("mobile-menu-active")) || 0,
             urls:[
-                {name:"About", url:"/", icon:"fa-regular fa-user"},
-                {name:"Resume", url:"/resume", icon:"fa-regular fa-file-lines"},
-                {name:"Works", url:"/portifolio", icon:"fas fa-briefcase"},
-                {name:"Contact", url:"/contact", icon:"fa-solid fa-address-book"},
+                {name:"About", link:"/", icon:"fa-regular fa-user"},
+                {name:"Resume", link:"/resume", icon:"fa-regular fa-file-lines"},
+                {name:"Works", link:"/portifolio", icon:"fas fa-briefcase"},
+                {name:"Contact", link:"/contact", icon:"fa-solid fa-address-book"},
             ]
         }
     },

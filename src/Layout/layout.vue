@@ -70,6 +70,9 @@ export default {
 }
 </script>
 <style lang="css">
+*{
+    user-select: none;
+}
 @import "@/css/vendor/slick.css";
 @import "@/css/custom.css";
 @import "@/css/tailwind.css";
