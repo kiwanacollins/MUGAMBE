@@ -81,7 +81,7 @@
                         <!-- dowanload button -->
                         <button class="dowanload-btn">
                             <img class="mr-3" src="@/images/icons/dowanload.png" alt="icon" />
-                                <a href="https://github.com/Mugamba669/my-portfolio/blob/master/src/CV/Bruno's%20CV.pdf" download="Mugamba Bruno M.H">Download CV</a>
+                                <a href="https://github.com/Mugamba669/my-portfolio/raw/master/src/CV/Bruno's%20CV.pdf" download="Mugamba Bruno M.H">Download CV</a>
                              </button>
                     </div>
                 </div>
