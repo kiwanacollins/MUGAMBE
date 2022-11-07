@@ -4,7 +4,7 @@
                     <div class="container  mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
                     <!-- responsive navigator -->
                       <div class="py-12 ">
-                            <h2 class="after-effect after:left-48 lg:mt-0">Portfolio</h2>
+                            <h2 class="after-effect after:left-48 lg:mt-0">My Work</h2>
                             <!-- fillter button group -->
                             <!-- fillter group buttons -->
                             <ul
