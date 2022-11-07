@@ -4,7 +4,7 @@
                 <div
                     class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
                     <!-- profile image -->
-                    <img src="@/images/about/habi.jpeg"
+                    <img src="@/assets/dp.jpg"
                         class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
                         alt="about" />
                     <div class="pt-[100px] pb-8">
@@ -26,9 +26,9 @@
                                 </span>
                             </a>
                             <!-- dribbble icon and link -->
-                            <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
-                                <span class="socialbtn text-[#e14a84]">
-                                    <i class="fa-brands fa-dribbble"></i>
+                            <a href="https://github.com/Mugamba669" target="_blank" rel="noopener noreferrer">
+                                <span class="socialbtn dark:text-[#dddddd] text-[#000000]">
+                                    <i class="fa-brands fa-github"></i>
                                 </span>
                             </a>
                             <!-- linkedin icon and link -->

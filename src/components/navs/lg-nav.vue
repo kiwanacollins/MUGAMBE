@@ -23,7 +23,7 @@ export default {
             urls:[
                 {name:"About", link:"/", icon:"fa-regular fa-user"},
                 {name:"Resume", link:"/resume", icon:"fa-regular fa-file-lines"},
-                {name:"Works", link:"/portifolio", icon:"fas fa-briefcase"},
+                {name:"Works", link:"/mywork", icon:"fas fa-briefcase"},
                 {name:"Contact", link:"/contact", icon:"fa-solid fa-address-book"},
             ]
         }

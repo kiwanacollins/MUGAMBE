@@ -1,5 +1,5 @@
 <template>
-  <layout title="Portifolio">
+  <layout title="My Works">
         <section id="portfolio" class="bg-white   lg:rounded-2xl dark:bg-[#111111]">
                     <div class="container  mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
                     <!-- responsive navigator -->
@@ -7,14 +7,14 @@
                             <h2 class="after-effect after:left-48 lg:mt-0">My Work</h2>
                             <!-- fillter button group -->
                             <!-- fillter group buttons -->
-                            <ul
+                            <!-- <ul
                                 class="button-group isotop-menu-wrapper mt-[30px] flex w-full justify-start md:justify-end flex-wrap font-medium">
                                 <li class="fillter-btn mr-4 md:mx-4 is-checked" data-filter="*">All</li>
                                 <li class="fillter-btn mr-4 md:mx-4" data-filter=".dev">Mobile Apps</li>
                                 <li class="fillter-btn mr-4 md:mx-4" data-filter=".plugin"> Web Design</li>
-                                <li class="fillter-btn mr-4 md:mx-4" data-filter=".branding"> Desktop</li>
+                                <li class="fillter-btn mr-4 md:mx-4" data-filter=".branding"> Desktop</li> -->
                                 <!-- <li class="fillter-btn mr-4 md:mx-4" data-filter=".custom">Graphic Design</li> -->
-                            </ul>
+                            <!-- </ul> -->
                         </div>
                          <div id="" class="mymix portfolio_list-two  two-col ">
                             <!-- <div class="grid-sizer"></div> -->

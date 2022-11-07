@@ -1,33 +1,26 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import Resume from "@/views/Resume.vue";
+import Portifolio from "@/views/Portifolio.vue";
+import Contact from "@/views/Contact.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
     component: HomeView,
   },
   {
     path: "/resume",
-    name: "Resume",
-    component: function () {
-      return import(/* webpackChunkName: "about" */ "../views/Resume.vue");
-    },
+    component: Resume,
   }, {
-    path: "/portifolio",
-    name: "Portifolio",
-    component: function () {
-      return import(/* webpackChunkName: "about" */ "../views/Portifolio.vue");
-    },
+    path: "/mywork",
+    component: Portifolio,
   }, {
     path: "/contact",
-    name: "Contact",
-    component: function () {
-      return import(/* webpackChunkName: "about" */ "../views/Contact.vue");
-    },
+    component:Contact,
   },
 ];
 
