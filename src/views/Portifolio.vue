@@ -5,8 +5,7 @@
         <!-- responsive navigator -->
         <div class="py-12">
           <h2 class="after-effect after:left-48 lg:mt-0">My Work</h2>
-          <!-- fillter button group -->
-          <!-- fillter group buttons -->
+
           <ul
             class="button-group isotop-menu-wrapper mt-[30px] flex w-full justify-start md:justify-end flex-wrap font-medium"
           >
