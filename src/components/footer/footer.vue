@@ -9,14 +9,13 @@
 </template>
 <script>
 export default {
-    name:"VFooter",
-      data() {
-        return {
-            year:new Date().getFullYear()
-        }
-    },
-}
+  name: "VFooter",
+  data() {
+    return {
+      year: new Date().getFullYear(),
+    };
+  },
+};
 </script>
 <style lang="scss" scoped>
-    
 </style>

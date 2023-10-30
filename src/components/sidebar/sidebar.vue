@@ -20,7 +20,7 @@
                                 </span>
                             </a>
                             <!-- twitter icon and link -->
-                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://twitter.com/BrunoMugamba" target="_blank" rel="noopener noreferrer">
                                 <span class="socialbtn text-[#1C9CEA]">
                                     <i class="fa-brands fa-twitter"></i>
                                 </span>
@@ -55,7 +55,7 @@
                                 </span>
                                 <div class="text-left ml-2.5">
                                     <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]"> Email </p>
-                                    <p class="dark:text-white">brunohectre@gmail.com</p>
+                                    <a href="mailto:brunohectre@gmail.com" class="dark:text-white">brunohectre@gmail.com</a>
                                 </div>
                             </div>
                             <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
@@ -81,7 +81,7 @@
                         <!-- dowanload button -->
                         <button class="dowanload-btn">
                             <img class="mr-3" src="@/images/icons/dowanload.png" alt="icon" />
-                                <a href="https://github.com/Mugamba669/my-portfolio/raw/master/src/CV/Bruno's%20CV.pdf" download="Mugamba Bruno M.H">Download CV</a>
+                                <a href="https://docs.google.com/document/d/1EwbVKJTqhBjSpgriCgzGLsTR2FWrpKFpWsLnQ1isoO0/view" download="Mugamba Bruno M.H">Download CV</a>
                              </button>
                     </div>
                 </div>
@@ -90,9 +90,8 @@
 </template>
 <script>
 export default {
-    name:"SideBar",
-}
+  name: "SideBar",
+};
 </script>
 <style lang="">
-    
 </style>

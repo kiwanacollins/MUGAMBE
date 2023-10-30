@@ -2,18 +2,18 @@
 <div>
     <header :title="title"/>
 
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div class="loader_line"></div>
-    </div>
+    </div> -->
    
     <!-- /PRELOADER -->
     <div class="bg-homeBg dark:bg-homeTwoBg-dark min-h-screen bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
         <div class="section-bg">
             <div class="w-full flex justify-between px-4">
                 <!-- website Logo -->
-                <a href="/">
+                <!-- <a href="/">
                     <img class="h-[26px] lg:h-[32px]" src="@/images/logo/logo.png" alt="logo" />
-                </a>
+                </a> -->
                 <div class="flex items-center">
                     <!-- dark and light mode toggle -->
                     <button id="theme-toggle" type="button" class="dark-light-btn">
@@ -58,20 +58,27 @@ import MobileNav from "@/components/navs/mobile-nav.vue";
 import LgNav from "@/components/navs/lg-nav.vue";
 import MobileSidebar from "@/components/sidebar/mobile-sidebar.vue";
 export default {
-    name:"Layout",
-    props:["title"],
-  
-    components:{
-        Header, MobileNav, SideBar,LgNav, MobileSidebar, VFooter
-    },
-    mounted(){
-        document.querySelector("title").textContent = `${this.title} | Mugamba Bruno`
-    }
-}
+  name: "Layout",
+  props: ["title"],
+
+  components: {
+    Header,
+    MobileNav,
+    SideBar,
+    LgNav,
+    MobileSidebar,
+    VFooter,
+  },
+  mounted() {
+    document.querySelector(
+      "title"
+    ).textContent = `${this.title} | Mugamba Bruno`;
+  },
+};
 </script>
 <style lang="css">
-*{
-    user-select: none;
+* {
+  user-select: none;
 }
 @import "@/css/vendor/slick.css";
 @import "@/css/custom.css";

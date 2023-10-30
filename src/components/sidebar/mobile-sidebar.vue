@@ -23,17 +23,17 @@
                                                 </span>
                                             </a>
                                             <!-- twitter icon and link -->
-                                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://twitter.com/BrunoMugamba" target="_blank" rel="noopener noreferrer">
                                                 <span class="socialbtn text-[#1C9CEA]">
                                                     <i class="fa-brands fa-twitter"></i>
                                                 </span>
                                             </a>
                                             <!-- dribbble icon and link -->
-                                            <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
-                                                <span class="socialbtn text-[#e14a84]">
-                                                    <i class="fa-brands fa-dribbble"></i>
-                                                </span>
-                                            </a>
+                                            <a href="https://github.com/Mugamba669" target="_blank" rel="noopener noreferrer">
+                                <span class="socialbtn dark:text-[#dddddd] text-[#000000]">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </a>
                                             <!-- linkedin icon and link -->
                                             <a href="https://www.linkedin.com/" target="_blank"
                                                 rel="noopener noreferrer">
@@ -100,9 +100,8 @@
 </template>
 <script>
 export default {
-    name:"MobileSidebar"
-}
+  name: "MobileSidebar",
+};
 </script>
 <style lang="">
-    
 </style>

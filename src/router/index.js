@@ -15,12 +15,14 @@ const routes = [
   {
     path: "/resume",
     component: Resume,
-  }, {
+  },
+  {
     path: "/mywork",
     component: Portifolio,
-  }, {
+  },
+  {
     path: "/contact",
-    component:Contact,
+    component: Contact,
   },
 ];
 
