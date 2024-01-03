@@ -76,13 +76,18 @@ export default {
   name: "Portfolio",
   data() {
     return {
-      type: "mobile",
+      type: "",
       items: [
         {
           name: "Skooltym Admin",
           type: "web",
           link: "http://skooltym.com/",
           img: "https://play-lh.googleusercontent.com/TmZYBIRpnB5cEE4R9uVOBZymWUALAi2W8QWL2It_wV020Drc6y_ToNlg-fSiUIaTdg=w1052-h592-rw",
+        },{
+          name:"Hype Muzik Web Version",
+          type:"web",
+          link:"https://hype-muzik.netlify.app/",
+          img:"https://avatars.githubusercontent.com/u/61741704?v=4"
         },
         {
           name: "Lw Amp",
